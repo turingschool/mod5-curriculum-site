@@ -75,14 +75,3 @@ What are 3 easy and actionable accessibility steps you can take in all of your p
 ![cfu-box](https://user-images.githubusercontent.com/17582916/60548305-ff375580-9cde-11e9-9e06-739244d68973.png)
 
 **DO NOT INDENT YOUR MARKDOWN** within the section tag, or else it will not work.
-
-### Algolia Search
-
-The site uses [Algolia](https://www.algolia.com/dashboard) for search indexing. To re-index the search when new lessons are added or lessons are removed, run this
-command in your terminal at the root of the curriculum directory:
-
-```shell
-ALGOLIA_API_KEY=admin_api_key jekyll algolia push
-```
-
-Where `admin_api_key` is replaced with the actual admin API key found in the Algolia account dashboard.
